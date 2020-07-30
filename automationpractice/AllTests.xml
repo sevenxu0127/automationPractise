@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="automationpractice.com">
+
+	<test name="automationpractice.com" parallel="false" preserve-order="true">
+    <classes>
+        <class name="automationpractice.com.LoginFormTest">
+            <methods>
+                <include name="successfulLogin" />
+            </methods>
+        </class>
+        <class name="automationpractice.com.ShopWorkflowTest">
+            <methods>
+                <include name="selectClotes" />
+            </methods>
+        </class>
+   </classes>
+</test>
+</suite>
